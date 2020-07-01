@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A651CF424AC1691001D8E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A651CF324AC1691001D8E01 /* AppDelegate.swift */; };
+		2A651CF624AC1691001D8E01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A651CF524AC1691001D8E01 /* SceneDelegate.swift */; };
+		2A651CF824AC1691001D8E01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A651CF724AC1691001D8E01 /* ViewController.swift */; };
+		2A651CFB24AC1691001D8E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A651CF924AC1691001D8E01 /* Main.storyboard */; };
+		2A651CFE24AC1691001D8E01 /* hobby_ipod.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A651CFC24AC1691001D8E01 /* hobby_ipod.xcdatamodeld */; };
+		2A651D0024AC1695001D8E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A651CFF24AC1695001D8E01 /* Assets.xcassets */; };
+		2A651D0324AC1695001D8E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A651D0124AC1695001D8E01 /* LaunchScreen.storyboard */; };
+		2A651D0E24AC1696001D8E01 /* hobby_ipodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A651D0D24AC1696001D8E01 /* hobby_ipodTests.swift */; };
+		2A651D1924AC1696001D8E01 /* hobby_ipodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A651D1824AC1696001D8E01 /* hobby_ipodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A651D0A24AC1696001D8E01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A651CE824AC1691001D8E01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A651CEF24AC1691001D8E01;
+			remoteInfo = hobby_ipod;
+		};
+		2A651D1524AC1696001D8E01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A651CE824AC1691001D8E01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A651CEF24AC1691001D8E01;
+			remoteInfo = hobby_ipod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A651CF024AC1691001D8E01 /* hobby_ipod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hobby_ipod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A651CF324AC1691001D8E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A651CF524AC1691001D8E01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A651CF724AC1691001D8E01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A651CFA24AC1691001D8E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A651CFD24AC1691001D8E01 /* hobby_ipod.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hobby_ipod.xcdatamodel; sourceTree = "<group>"; };
+		2A651CFF24AC1695001D8E01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A651D0224AC1695001D8E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A651D0424AC1695001D8E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A651D0924AC1696001D8E01 /* hobby_ipodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hobby_ipodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A651D0D24AC1696001D8E01 /* hobby_ipodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hobby_ipodTests.swift; sourceTree = "<group>"; };
+		2A651D0F24AC1696001D8E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A651D1424AC1696001D8E01 /* hobby_ipodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hobby_ipodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A651D1824AC1696001D8E01 /* hobby_ipodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hobby_ipodUITests.swift; sourceTree = "<group>"; };
+		2A651D1A24AC1696001D8E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A651CED24AC1691001D8E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A651D0624AC1696001D8E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A651D1124AC1696001D8E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A651CE724AC1691001D8E01 = {
+			isa = PBXGroup;
+			children = (
+				2A651CF224AC1691001D8E01 /* hobby_ipod */,
+				2A651D0C24AC1696001D8E01 /* hobby_ipodTests */,
+				2A651D1724AC1696001D8E01 /* hobby_ipodUITests */,
+				2A651CF124AC1691001D8E01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A651CF124AC1691001D8E01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A651CF024AC1691001D8E01 /* hobby_ipod.app */,
+				2A651D0924AC1696001D8E01 /* hobby_ipodTests.xctest */,
+				2A651D1424AC1696001D8E01 /* hobby_ipodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A651CF224AC1691001D8E01 /* hobby_ipod */ = {
+			isa = PBXGroup;
+			children = (
+				2A651CF324AC1691001D8E01 /* AppDelegate.swift */,
+				2A651CF524AC1691001D8E01 /* SceneDelegate.swift */,
+				2A651CF724AC1691001D8E01 /* ViewController.swift */,
+				2A651CF924AC1691001D8E01 /* Main.storyboard */,
+				2A651CFF24AC1695001D8E01 /* Assets.xcassets */,
+				2A651D0124AC1695001D8E01 /* LaunchScreen.storyboard */,
+				2A651D0424AC1695001D8E01 /* Info.plist */,
+				2A651CFC24AC1691001D8E01 /* hobby_ipod.xcdatamodeld */,
+			);
+			path = hobby_ipod;
+			sourceTree = "<group>";
+		};
+		2A651D0C24AC1696001D8E01 /* hobby_ipodTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A651D0D24AC1696001D8E01 /* hobby_ipodTests.swift */,
+				2A651D0F24AC1696001D8E01 /* Info.plist */,
+			);
+			path = hobby_ipodTests;
+			sourceTree = "<group>";
+		};
+		2A651D1724AC1696001D8E01 /* hobby_ipodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A651D1824AC1696001D8E01 /* hobby_ipodUITests.swift */,
+				2A651D1A24AC1696001D8E01 /* Info.plist */,
+			);
+			path = hobby_ipodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A651CEF24AC1691001D8E01 /* hobby_ipod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A651D1D24AC1696001D8E01 /* Build configuration list for PBXNativeTarget "hobby_ipod" */;
+			buildPhases = (
+				2A651CEC24AC1691001D8E01 /* Sources */,
+				2A651CED24AC1691001D8E01 /* Frameworks */,
+				2A651CEE24AC1691001D8E01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hobby_ipod;
+			productName = hobby_ipod;
+			productReference = 2A651CF024AC1691001D8E01 /* hobby_ipod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A651D0824AC1696001D8E01 /* hobby_ipodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A651D2024AC1696001D8E01 /* Build configuration list for PBXNativeTarget "hobby_ipodTests" */;
+			buildPhases = (
+				2A651D0524AC1696001D8E01 /* Sources */,
+				2A651D0624AC1696001D8E01 /* Frameworks */,
+				2A651D0724AC1696001D8E01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A651D0B24AC1696001D8E01 /* PBXTargetDependency */,
+			);
+			name = hobby_ipodTests;
+			productName = hobby_ipodTests;
+			productReference = 2A651D0924AC1696001D8E01 /* hobby_ipodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A651D1324AC1696001D8E01 /* hobby_ipodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A651D2324AC1696001D8E01 /* Build configuration list for PBXNativeTarget "hobby_ipodUITests" */;
+			buildPhases = (
+				2A651D1024AC1696001D8E01 /* Sources */,
+				2A651D1124AC1696001D8E01 /* Frameworks */,
+				2A651D1224AC1696001D8E01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A651D1624AC1696001D8E01 /* PBXTargetDependency */,
+			);
+			name = hobby_ipodUITests;
+			productName = hobby_ipodUITests;
+			productReference = 2A651D1424AC1696001D8E01 /* hobby_ipodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A651CE824AC1691001D8E01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = unwithdrawal;
+				TargetAttributes = {
+					2A651CEF24AC1691001D8E01 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					2A651D0824AC1696001D8E01 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 2A651CEF24AC1691001D8E01;
+					};
+					2A651D1324AC1696001D8E01 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 2A651CEF24AC1691001D8E01;
+					};
+				};
+			};
+			buildConfigurationList = 2A651CEB24AC1691001D8E01 /* Build configuration list for PBXProject "hobby_ipod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A651CE724AC1691001D8E01;
+			productRefGroup = 2A651CF124AC1691001D8E01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A651CEF24AC1691001D8E01 /* hobby_ipod */,
+				2A651D0824AC1696001D8E01 /* hobby_ipodTests */,
+				2A651D1324AC1696001D8E01 /* hobby_ipodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A651CEE24AC1691001D8E01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A651D0324AC1695001D8E01 /* LaunchScreen.storyboard in Resources */,
+				2A651D0024AC1695001D8E01 /* Assets.xcassets in Resources */,
+				2A651CFB24AC1691001D8E01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A651D0724AC1696001D8E01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A651D1224AC1696001D8E01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A651CEC24AC1691001D8E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A651CF824AC1691001D8E01 /* ViewController.swift in Sources */,
+				2A651CF424AC1691001D8E01 /* AppDelegate.swift in Sources */,
+				2A651CFE24AC1691001D8E01 /* hobby_ipod.xcdatamodeld in Sources */,
+				2A651CF624AC1691001D8E01 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A651D0524AC1696001D8E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A651D0E24AC1696001D8E01 /* hobby_ipodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A651D1024AC1696001D8E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A651D1924AC1696001D8E01 /* hobby_ipodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A651D0B24AC1696001D8E01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A651CEF24AC1691001D8E01 /* hobby_ipod */;
+			targetProxy = 2A651D0A24AC1696001D8E01 /* PBXContainerItemProxy */;
+		};
+		2A651D1624AC1696001D8E01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A651CEF24AC1691001D8E01 /* hobby_ipod */;
+			targetProxy = 2A651D1524AC1696001D8E01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A651CF924AC1691001D8E01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A651CFA24AC1691001D8E01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A651D0124AC1695001D8E01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A651D0224AC1695001D8E01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A651D1B24AC1696001D8E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A651D1C24AC1696001D8E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A651D1E24AC1696001D8E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LF898D63;
+				INFOPLIST_FILE = hobby_ipod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hobby-ipod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A651D1F24AC1696001D8E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LF898D63;
+				INFOPLIST_FILE = hobby_ipod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hobby-ipod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A651D2124AC1696001D8E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LF898D63;
+				INFOPLIST_FILE = hobby_ipodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hobby-ipodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hobby_ipod.app/hobby_ipod";
+			};
+			name = Debug;
+		};
+		2A651D2224AC1696001D8E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LF898D63;
+				INFOPLIST_FILE = hobby_ipodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hobby-ipodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hobby_ipod.app/hobby_ipod";
+			};
+			name = Release;
+		};
+		2A651D2424AC1696001D8E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LF898D63;
+				INFOPLIST_FILE = hobby_ipodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hobby-ipodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hobby_ipod;
+			};
+			name = Debug;
+		};
+		2A651D2524AC1696001D8E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LF898D63;
+				INFOPLIST_FILE = hobby_ipodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hobby-ipodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hobby_ipod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A651CEB24AC1691001D8E01 /* Build configuration list for PBXProject "hobby_ipod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A651D1B24AC1696001D8E01 /* Debug */,
+				2A651D1C24AC1696001D8E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A651D1D24AC1696001D8E01 /* Build configuration list for PBXNativeTarget "hobby_ipod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A651D1E24AC1696001D8E01 /* Debug */,
+				2A651D1F24AC1696001D8E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A651D2024AC1696001D8E01 /* Build configuration list for PBXNativeTarget "hobby_ipodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A651D2124AC1696001D8E01 /* Debug */,
+				2A651D2224AC1696001D8E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A651D2324AC1696001D8E01 /* Build configuration list for PBXNativeTarget "hobby_ipodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A651D2424AC1696001D8E01 /* Debug */,
+				2A651D2524AC1696001D8E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A651CFC24AC1691001D8E01 /* hobby_ipod.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A651CFD24AC1691001D8E01 /* hobby_ipod.xcdatamodel */,
+			);
+			currentVersion = 2A651CFD24AC1691001D8E01 /* hobby_ipod.xcdatamodel */;
+			path = hobby_ipod.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A651CE824AC1691001D8E01 /* Project object */;
+}
