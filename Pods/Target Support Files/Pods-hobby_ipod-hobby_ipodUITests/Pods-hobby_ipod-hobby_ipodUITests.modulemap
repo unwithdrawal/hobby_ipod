@@ -1,0 +1,6 @@
+framework module Pods_hobby_ipod_hobby_ipodUITests {
+  umbrella header "Pods-hobby_ipod-hobby_ipodUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

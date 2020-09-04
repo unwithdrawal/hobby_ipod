@@ -7,14 +7,26 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         // Do any additional setup after loading the view.
     }
 
 
+    
+    @IBAction func play(_ sender: Any) {
+    }
+    @IBAction func next(_ sender: Any) {
+    }
+    @IBAction func back(_ sender: Any) {
+    }
+    @IBAction func menu(_ sender: Any) {
+    }
 }
 

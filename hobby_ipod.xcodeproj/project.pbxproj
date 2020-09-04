@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A35E23424F62130007F201C /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A35E23324F62130007F201C /* TimerController.swift */; };
+		2A35E23A24F7910D007F201C /* SocketNodeJs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A35E23924F7910D007F201C /* SocketNodeJs.swift */; };
 		2A651CF424AC1691001D8E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A651CF324AC1691001D8E01 /* AppDelegate.swift */; };
 		2A651CF624AC1691001D8E01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A651CF524AC1691001D8E01 /* SceneDelegate.swift */; };
 		2A651CF824AC1691001D8E01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A651CF724AC1691001D8E01 /* ViewController.swift */; };
@@ -16,6 +18,10 @@
 		2A651D0324AC1695001D8E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A651D0124AC1695001D8E01 /* LaunchScreen.storyboard */; };
 		2A651D0E24AC1696001D8E01 /* hobby_ipodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A651D0D24AC1696001D8E01 /* hobby_ipodTests.swift */; };
 		2A651D1924AC1696001D8E01 /* hobby_ipodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A651D1824AC1696001D8E01 /* hobby_ipodUITests.swift */; };
+		2AE2A17B2501EDA000389C84 /* AsyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2A17A2501EDA000389C84 /* AsyncViewController.swift */; };
+		D708A7C515A8D4BE9BECA9A4 /* Pods_hobby_ipod_hobby_ipodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A1BABCDF8B298521E6BE6 /* Pods_hobby_ipod_hobby_ipodUITests.framework */; };
+		DFFFAD40B0906D37935F6DF6 /* Pods_hobby_ipod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A750648EFFD5F8822021C3CE /* Pods_hobby_ipod.framework */; };
+		E375DCADD80B008C06D02A43 /* Pods_hobby_ipodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B63BC0A18A56698C877BE16 /* Pods_hobby_ipodTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A35E23324F62130007F201C /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
+		2A35E23924F7910D007F201C /* SocketNodeJs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketNodeJs.swift; sourceTree = "<group>"; };
 		2A651CF024AC1691001D8E01 /* hobby_ipod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hobby_ipod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A651CF324AC1691001D8E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A651CF524AC1691001D8E01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,19 @@
 		2A651D1424AC1696001D8E01 /* hobby_ipodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hobby_ipodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A651D1824AC1696001D8E01 /* hobby_ipodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hobby_ipodUITests.swift; sourceTree = "<group>"; };
 		2A651D1A24AC1696001D8E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC0F33624C585D300FBFD1C /* hobby_ipod-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hobby_ipod-Bridging-Header.h"; sourceTree = "<group>"; };
+		2AC0F33724C585D300FBFD1C /* hobby_ipodTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hobby_ipodTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		2AC0F33824C585D300FBFD1C /* hobby_ipodUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hobby_ipodUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		2AE2A17A2501EDA000389C84 /* AsyncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncViewController.swift; sourceTree = "<group>"; };
+		403C1AC5F1F53FA4FAD6FB4F /* Pods-hobby_ipodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hobby_ipodTests.release.xcconfig"; path = "Target Support Files/Pods-hobby_ipodTests/Pods-hobby_ipodTests.release.xcconfig"; sourceTree = "<group>"; };
+		5851C32A2FEB851996A6EC3F /* Pods-hobby_ipodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hobby_ipodTests.debug.xcconfig"; path = "Target Support Files/Pods-hobby_ipodTests/Pods-hobby_ipodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B63BC0A18A56698C877BE16 /* Pods_hobby_ipodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hobby_ipodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CE75E4C89F677AF4CABE0B /* Pods-hobby_ipod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hobby_ipod.debug.xcconfig"; path = "Target Support Files/Pods-hobby_ipod/Pods-hobby_ipod.debug.xcconfig"; sourceTree = "<group>"; };
+		A00A1BABCDF8B298521E6BE6 /* Pods_hobby_ipod_hobby_ipodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hobby_ipod_hobby_ipodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70F504F84E8DD8043B5E113 /* Pods-hobby_ipod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hobby_ipod.release.xcconfig"; path = "Target Support Files/Pods-hobby_ipod/Pods-hobby_ipod.release.xcconfig"; sourceTree = "<group>"; };
+		A750648EFFD5F8822021C3CE /* Pods_hobby_ipod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hobby_ipod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A2A89E349B9F1B3D55FFE8 /* Pods-hobby_ipod-hobby_ipodUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hobby_ipod-hobby_ipodUITests.debug.xcconfig"; path = "Target Support Files/Pods-hobby_ipod-hobby_ipodUITests/Pods-hobby_ipod-hobby_ipodUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC8DB0289702AAF39004FD79 /* Pods-hobby_ipod-hobby_ipodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hobby_ipod-hobby_ipodUITests.release.xcconfig"; path = "Target Support Files/Pods-hobby_ipod-hobby_ipodUITests/Pods-hobby_ipod-hobby_ipodUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFFFAD40B0906D37935F6DF6 /* Pods_hobby_ipod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E375DCADD80B008C06D02A43 /* Pods_hobby_ipodTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D708A7C515A8D4BE9BECA9A4 /* Pods_hobby_ipod_hobby_ipodUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +109,11 @@
 				2A651D0C24AC1696001D8E01 /* hobby_ipodTests */,
 				2A651D1724AC1696001D8E01 /* hobby_ipodUITests */,
 				2A651CF124AC1691001D8E01 /* Products */,
+				2AC0F33624C585D300FBFD1C /* hobby_ipod-Bridging-Header.h */,
+				2AC0F33724C585D300FBFD1C /* hobby_ipodTests-Bridging-Header.h */,
+				2AC0F33824C585D300FBFD1C /* hobby_ipodUITests-Bridging-Header.h */,
+				321BADEAD5C419D55E03722A /* Pods */,
+				928663D407F5984E5CD878B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +133,9 @@
 				2A651CF324AC1691001D8E01 /* AppDelegate.swift */,
 				2A651CF524AC1691001D8E01 /* SceneDelegate.swift */,
 				2A651CF724AC1691001D8E01 /* ViewController.swift */,
+				2A35E23324F62130007F201C /* TimerController.swift */,
+				2A35E23924F7910D007F201C /* SocketNodeJs.swift */,
+				2AE2A17A2501EDA000389C84 /* AsyncViewController.swift */,
 				2A651CF924AC1691001D8E01 /* Main.storyboard */,
 				2A651CFF24AC1695001D8E01 /* Assets.xcassets */,
 				2A651D0124AC1695001D8E01 /* LaunchScreen.storyboard */,
@@ -131,6 +163,29 @@
 			path = hobby_ipodUITests;
 			sourceTree = "<group>";
 		};
+		321BADEAD5C419D55E03722A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70CE75E4C89F677AF4CABE0B /* Pods-hobby_ipod.debug.xcconfig */,
+				A70F504F84E8DD8043B5E113 /* Pods-hobby_ipod.release.xcconfig */,
+				B4A2A89E349B9F1B3D55FFE8 /* Pods-hobby_ipod-hobby_ipodUITests.debug.xcconfig */,
+				BC8DB0289702AAF39004FD79 /* Pods-hobby_ipod-hobby_ipodUITests.release.xcconfig */,
+				5851C32A2FEB851996A6EC3F /* Pods-hobby_ipodTests.debug.xcconfig */,
+				403C1AC5F1F53FA4FAD6FB4F /* Pods-hobby_ipodTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		928663D407F5984E5CD878B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A750648EFFD5F8822021C3CE /* Pods_hobby_ipod.framework */,
+				A00A1BABCDF8B298521E6BE6 /* Pods_hobby_ipod_hobby_ipodUITests.framework */,
+				5B63BC0A18A56698C877BE16 /* Pods_hobby_ipodTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A651D1D24AC1696001D8E01 /* Build configuration list for PBXNativeTarget "hobby_ipod" */;
 			buildPhases = (
+				8AFFDAA030F34208697E2173 /* [CP] Check Pods Manifest.lock */,
 				2A651CEC24AC1691001D8E01 /* Sources */,
 				2A651CED24AC1691001D8E01 /* Frameworks */,
 				2A651CEE24AC1691001D8E01 /* Resources */,
+				ED55EB789CCA4F9ED57C16F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A651D2024AC1696001D8E01 /* Build configuration list for PBXNativeTarget "hobby_ipodTests" */;
 			buildPhases = (
+				878447F3EB5743B9D87DE9BC /* [CP] Check Pods Manifest.lock */,
 				2A651D0524AC1696001D8E01 /* Sources */,
 				2A651D0624AC1696001D8E01 /* Frameworks */,
 				2A651D0724AC1696001D8E01 /* Resources */,
@@ -173,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A651D2324AC1696001D8E01 /* Build configuration list for PBXNativeTarget "hobby_ipodUITests" */;
 			buildPhases = (
+				B90FCC1D219BF3B10FD7EAAD /* [CP] Check Pods Manifest.lock */,
 				2A651D1024AC1696001D8E01 /* Sources */,
 				2A651D1124AC1696001D8E01 /* Frameworks */,
 				2A651D1224AC1696001D8E01 /* Resources */,
+				BBF1351FC832B7F4AA560A45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,13 +259,16 @@
 				TargetAttributes = {
 					2A651CEF24AC1691001D8E01 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					2A651D0824AC1696001D8E01 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 						TestTargetID = 2A651CEF24AC1691001D8E01;
 					};
 					2A651D1324AC1696001D8E01 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 						TestTargetID = 2A651CEF24AC1691001D8E01;
 					};
 				};
@@ -257,6 +320,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		878447F3EB5743B9D87DE9BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hobby_ipodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AFFDAA030F34208697E2173 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hobby_ipod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B90FCC1D219BF3B10FD7EAAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hobby_ipod-hobby_ipodUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF1351FC832B7F4AA560A45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hobby_ipod-hobby_ipodUITests/Pods-hobby_ipod-hobby_ipodUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hobby_ipod-hobby_ipodUITests/Pods-hobby_ipod-hobby_ipodUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hobby_ipod-hobby_ipodUITests/Pods-hobby_ipod-hobby_ipodUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED55EB789CCA4F9ED57C16F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hobby_ipod/Pods-hobby_ipod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hobby_ipod/Pods-hobby_ipod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hobby_ipod/Pods-hobby_ipod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A651CEC24AC1691001D8E01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,7 +431,10 @@
 				2A651CF824AC1691001D8E01 /* ViewController.swift in Sources */,
 				2A651CF424AC1691001D8E01 /* AppDelegate.swift in Sources */,
 				2A651CFE24AC1691001D8E01 /* hobby_ipod.xcdatamodeld in Sources */,
+				2AE2A17B2501EDA000389C84 /* AsyncViewController.swift in Sources */,
+				2A35E23A24F7910D007F201C /* SocketNodeJs.swift in Sources */,
 				2A651CF624AC1691001D8E01 /* SceneDelegate.swift in Sources */,
+				2A35E23424F62130007F201C /* TimerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,17 +605,22 @@
 		};
 		2A651D1E24AC1696001D8E01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70CE75E4C89F677AF4CABE0B /* Pods-hobby_ipod.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98LF898D63;
 				INFOPLIST_FILE = hobby_ipod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hobby-ipod";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hobby_ipod-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,17 +628,21 @@
 		};
 		2A651D1F24AC1696001D8E01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70F504F84E8DD8043B5E113 /* Pods-hobby_ipod.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98LF898D63;
 				INFOPLIST_FILE = hobby_ipod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hobby-ipod";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hobby_ipod-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,9 +650,11 @@
 		};
 		2A651D2124AC1696001D8E01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5851C32A2FEB851996A6EC3F /* Pods-hobby_ipodTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98LF898D63;
 				INFOPLIST_FILE = hobby_ipodTests/Info.plist;
@@ -486,6 +666,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hobby-ipodTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hobby_ipodTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hobby_ipod.app/hobby_ipod";
@@ -494,9 +676,11 @@
 		};
 		2A651D2224AC1696001D8E01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403C1AC5F1F53FA4FAD6FB4F /* Pods-hobby_ipodTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98LF898D63;
 				INFOPLIST_FILE = hobby_ipodTests/Info.plist;
@@ -508,6 +692,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hobby-ipodTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hobby_ipodTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hobby_ipod.app/hobby_ipod";
@@ -516,8 +701,10 @@
 		};
 		2A651D2424AC1696001D8E01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A2A89E349B9F1B3D55FFE8 /* Pods-hobby_ipod-hobby_ipodUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98LF898D63;
 				INFOPLIST_FILE = hobby_ipodUITests/Info.plist;
@@ -528,6 +715,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hobby-ipodUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hobby_ipodUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = hobby_ipod;
@@ -536,8 +725,10 @@
 		};
 		2A651D2524AC1696001D8E01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC8DB0289702AAF39004FD79 /* Pods-hobby_ipod-hobby_ipodUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98LF898D63;
 				INFOPLIST_FILE = hobby_ipodUITests/Info.plist;
@@ -548,6 +739,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "unwithdrawal.hobby-ipodUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hobby_ipodUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = hobby_ipod;
