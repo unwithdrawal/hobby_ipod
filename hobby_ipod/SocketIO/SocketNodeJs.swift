@@ -8,17 +8,22 @@
 
 import UIKit
 import SocketIO
+import Foundation
 
 class TestViewController: UIViewController,UITableViewDataSource, UITableViewDelegate{
 
+
+    
     let manager = SocketManager(socketURL: URL(string:"http://localhost:8080/")!, config: [.log(true), .compress])
     var socket : SocketIOClient!
     var dataList :NSMutableArray! = []
-
+    
+    
     
     @IBOutlet weak var messageTextField: UITextField!
     var textFieldString = ""            //ここがインスタンスを入れる箱
-  
+    var randomNumber = ""
+    
     //今回使ってないループのやつ
     func roopSending(){
         tapButtonAction((Any).self)
@@ -30,14 +35,33 @@ class TestViewController: UIViewController,UITableViewDataSource, UITableViewDel
            
        }
     
+    //別のクラスの関数を呼び出すクラス
+    func catchingNumber(randomInt:Int){
+        let connection = RandomNumberForSocket()
+        connection.sendings(randomInt:Int )
+    }
+    
     
     @IBOutlet weak var testTableView: UITableView!
+    
+    var flag:Bool = false
+    @IBAction func switchToggleAction(_ sender: Any) {
+        while true {
+            tapButtonAction(self)
+
+            flag = false
+        }
+        
+    }
+    
     @IBAction func tapButtonAction(_ sender: Any) {
-        textFieldString = messageTextField.text!            //textFieldStringに代入
+        textFieldString = messageTextField.text!//textFieldStringに代入
+        
         socket.emit("from_client", textFieldString)         //textFiledStringの中身をemit
         messageTextField.text = ""                          //送信後、textFieldの中身を初期化
         messageTextField.endEditing(true)                   //キーボードをしまう
         //この下にも複数のメソッドを書くことでボタンの機能を拡充させることが可能
+
         
     }
     @IBAction func reconnectButtonAction(_ sender: Any) {

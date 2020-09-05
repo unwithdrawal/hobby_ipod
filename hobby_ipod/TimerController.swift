@@ -8,19 +8,10 @@
 
 import UIKit
 
-class TimerViewController : UIViewController{
+class NewViewController:UIViewController{
     
-    var timer = Timer()
-    var count = 0
-    
-   
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(dataSending), userInfo: nil, repeats: true)
-        }
-    @objc func dataSending(){
-        print("プリントが呼ばれたよ")
+    func random(){
+        let randomNum = 
     }
+    
 }

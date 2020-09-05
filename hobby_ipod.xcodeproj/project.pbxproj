@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A35E23424F62130007F201C /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A35E23324F62130007F201C /* TimerController.swift */; };
 		2A35E23A24F7910D007F201C /* SocketNodeJs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A35E23924F7910D007F201C /* SocketNodeJs.swift */; };
 		2A651CF424AC1691001D8E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A651CF324AC1691001D8E01 /* AppDelegate.swift */; };
 		2A651CF624AC1691001D8E01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A651CF524AC1691001D8E01 /* SceneDelegate.swift */; };
@@ -19,6 +18,10 @@
 		2A651D0E24AC1696001D8E01 /* hobby_ipodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A651D0D24AC1696001D8E01 /* hobby_ipodTests.swift */; };
 		2A651D1924AC1696001D8E01 /* hobby_ipodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A651D1824AC1696001D8E01 /* hobby_ipodUITests.swift */; };
 		2AE2A17B2501EDA000389C84 /* AsyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2A17A2501EDA000389C84 /* AsyncViewController.swift */; };
+		2AE2A1842502241F00389C84 /* Uketori.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2A1832502241F00389C84 /* Uketori.swift */; };
+		2AE2A18B2502358100389C84 /* Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2A18A2502358100389C84 /* Sender.swift */; };
+		2AE2A18D2502358D00389C84 /* Catcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2A18C2502358D00389C84 /* Catcher.swift */; };
+		2AE2A18F2502423B00389C84 /* RandomNumberForSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2A18E2502423B00389C84 /* RandomNumberForSocket.swift */; };
 		D708A7C515A8D4BE9BECA9A4 /* Pods_hobby_ipod_hobby_ipodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A1BABCDF8B298521E6BE6 /* Pods_hobby_ipod_hobby_ipodUITests.framework */; };
 		DFFFAD40B0906D37935F6DF6 /* Pods_hobby_ipod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A750648EFFD5F8822021C3CE /* Pods_hobby_ipod.framework */; };
 		E375DCADD80B008C06D02A43 /* Pods_hobby_ipodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B63BC0A18A56698C877BE16 /* Pods_hobby_ipodTests.framework */; };
@@ -42,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A35E23324F62130007F201C /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
 		2A35E23924F7910D007F201C /* SocketNodeJs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketNodeJs.swift; sourceTree = "<group>"; };
 		2A651CF024AC1691001D8E01 /* hobby_ipod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hobby_ipod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A651CF324AC1691001D8E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,10 @@
 		2AC0F33724C585D300FBFD1C /* hobby_ipodTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hobby_ipodTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		2AC0F33824C585D300FBFD1C /* hobby_ipodUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hobby_ipodUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		2AE2A17A2501EDA000389C84 /* AsyncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncViewController.swift; sourceTree = "<group>"; };
+		2AE2A1832502241F00389C84 /* Uketori.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uketori.swift; sourceTree = "<group>"; };
+		2AE2A18A2502358100389C84 /* Sender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sender.swift; sourceTree = "<group>"; };
+		2AE2A18C2502358D00389C84 /* Catcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catcher.swift; sourceTree = "<group>"; };
+		2AE2A18E2502423B00389C84 /* RandomNumberForSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberForSocket.swift; sourceTree = "<group>"; };
 		403C1AC5F1F53FA4FAD6FB4F /* Pods-hobby_ipodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hobby_ipodTests.release.xcconfig"; path = "Target Support Files/Pods-hobby_ipodTests/Pods-hobby_ipodTests.release.xcconfig"; sourceTree = "<group>"; };
 		5851C32A2FEB851996A6EC3F /* Pods-hobby_ipodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hobby_ipodTests.debug.xcconfig"; path = "Target Support Files/Pods-hobby_ipodTests/Pods-hobby_ipodTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B63BC0A18A56698C877BE16 /* Pods_hobby_ipodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hobby_ipodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,12 +136,12 @@
 		2A651CF224AC1691001D8E01 /* hobby_ipod */ = {
 			isa = PBXGroup;
 			children = (
+				2A651CF724AC1691001D8E01 /* ViewController.swift */,
 				2A651CF324AC1691001D8E01 /* AppDelegate.swift */,
 				2A651CF524AC1691001D8E01 /* SceneDelegate.swift */,
-				2A651CF724AC1691001D8E01 /* ViewController.swift */,
-				2A35E23324F62130007F201C /* TimerController.swift */,
-				2A35E23924F7910D007F201C /* SocketNodeJs.swift */,
-				2AE2A17A2501EDA000389C84 /* AsyncViewController.swift */,
+				2AE2A1882502352800389C84 /* SocketIO */,
+				2AE2A187250234FF00389C84 /* Arguments */,
+				2AE2A1892502356400389C84 /* OverTheClass */,
 				2A651CF924AC1691001D8E01 /* Main.storyboard */,
 				2A651CFF24AC1695001D8E01 /* Assets.xcassets */,
 				2A651D0124AC1695001D8E01 /* LaunchScreen.storyboard */,
@@ -161,6 +167,34 @@
 				2A651D1A24AC1696001D8E01 /* Info.plist */,
 			);
 			path = hobby_ipodUITests;
+			sourceTree = "<group>";
+		};
+		2AE2A187250234FF00389C84 /* Arguments */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2A1832502241F00389C84 /* Uketori.swift */,
+				2AE2A17A2501EDA000389C84 /* AsyncViewController.swift */,
+			);
+			path = Arguments;
+			sourceTree = "<group>";
+		};
+		2AE2A1882502352800389C84 /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				2A35E23924F7910D007F201C /* SocketNodeJs.swift */,
+				2AE2A18E2502423B00389C84 /* RandomNumberForSocket.swift */,
+			);
+			path = SocketIO;
+			sourceTree = "<group>";
+		};
+		2AE2A1892502356400389C84 /* OverTheClass */ = {
+			isa = PBXGroup;
+			children = (
+				2AE2A18A2502358100389C84 /* Sender.swift */,
+				2AE2A18C2502358D00389C84 /* Catcher.swift */,
+			);
+			name = OverTheClass;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		321BADEAD5C419D55E03722A /* Pods */ = {
@@ -428,13 +462,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE2A18B2502358100389C84 /* Sender.swift in Sources */,
 				2A651CF824AC1691001D8E01 /* ViewController.swift in Sources */,
+				2AE2A18F2502423B00389C84 /* RandomNumberForSocket.swift in Sources */,
 				2A651CF424AC1691001D8E01 /* AppDelegate.swift in Sources */,
 				2A651CFE24AC1691001D8E01 /* hobby_ipod.xcdatamodeld in Sources */,
+				2AE2A1842502241F00389C84 /* Uketori.swift in Sources */,
 				2AE2A17B2501EDA000389C84 /* AsyncViewController.swift in Sources */,
 				2A35E23A24F7910D007F201C /* SocketNodeJs.swift in Sources */,
+				2AE2A18D2502358D00389C84 /* Catcher.swift in Sources */,
 				2A651CF624AC1691001D8E01 /* SceneDelegate.swift in Sources */,
-				2A35E23424F62130007F201C /* TimerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
