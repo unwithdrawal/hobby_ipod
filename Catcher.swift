@@ -14,7 +14,9 @@ class Catcher:UIViewController{
     func catchings(){
         let connect = Sender()
         connect.sendings()
+        
     }
+    
     
     @IBAction func buttonofCatcher(_ sender: Any) {
         catchings()

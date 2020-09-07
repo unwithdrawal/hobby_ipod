@@ -14,9 +14,14 @@ class RandomNumberForSocket:UIViewController{
     
    
     
-    func sendings(randomInt:Int)->Int  {
-    let randomInt = Int.random(in: 1..<101)
-    return randomInt
-        
+    func sendings() -> Int {
+        let randomInt = Int.random(in: 1..<101)
+        return randomInt
     }
+    
+    @IBAction func buttonAct(_ sender: Any) {
+        print("アイデンティファー",sendings())
+    }
+    
+    
 }

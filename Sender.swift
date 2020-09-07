@@ -11,10 +11,11 @@ import UIKit
 
 class Sender:UIViewController{
     //こっちが変数を作って渡すクラス
-    
-    func sendings(){
+
+    func sendings() {
         let randomInt = Int.random(in: 1..<101)
-        print("ランダム数値をprintするよ",randomInt)
+        let randomIntString:String = String(randomInt)
+        print("ランダム数値をprintするよ",randomIntString)
     }
   
     

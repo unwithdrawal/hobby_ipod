@@ -79,7 +79,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IRz-26-fFJ" secondAttribute="trailing" constant="39.5" id="6Ql-cc-Zdh"/>
                             <constraint firstItem="IRz-26-fFJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39.5" id="PAK-YX-vam"/>
@@ -208,13 +208,25 @@
             </objects>
             <point key="canvasLocation" x="57.971014492753625" y="2229.9107142857142"/>
         </scene>
-        <!--Sender-->
+        <!--Random Number For Socket-->
         <scene sceneID="BwG-V2-ZYO">
             <objects>
-                <viewController id="IxJ-jD-hXs" customClass="Sender" customModule="hobby_ipod" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IxJ-jD-hXs" customClass="RandomNumberForSocket" customModule="hobby_ipod" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kXD-4P-tHF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3e4-QD-XLv">
+                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonAct:" destination="IxJ-jD-hXs" eventType="touchUpInside" id="hnf-zs-CKT"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Ycl-PU-tq7"/>
                     </view>
