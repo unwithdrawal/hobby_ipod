@@ -19,9 +19,13 @@ class RandomNumberForSocket:UIViewController{
         return randomInt
     }
     
-    @IBAction func buttonAct(_ sender: Any) {
-        print("アイデンティファー",sendings())
+    @objc func timetime(){
+        print("生成サイドの数字はこちら",sendings())
     }
     
+    override func viewDidLoad() {
+       var  timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timetime), userInfo: nil, repeats: true)
+    }
     
 }
+    

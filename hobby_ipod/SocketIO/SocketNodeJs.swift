@@ -20,16 +20,15 @@ class TestViewController: UIViewController,UITableViewDataSource, UITableViewDel
     
     
     
-    @IBOutlet weak var messageTextField: UITextField!
-    var textFieldString = ""            //ここがインスタンスを入れる箱
+    @IBOutlet weak var messageTextField: UITextField!   //テキスト用メッセージフィールド
+    var textFieldString = ""            //ここがインスタンスを入れる箱(text)
     
-    
-    
-    //今回使ってないループのやつ
+    //今回使ってないループのやつ。使うときはtapButtonActionにroopSending()を記述してね。処理落ちするけど。
     func roopSending(){
         tapButtonAction((Any).self)
     }
     
+    //リターンキー押したらキーボード閉じるやつ、なんかうまくいってない
     func textFieldShouldReturn(_ messageTextField: UITextField) -> Bool {
               messageTextField.resignFirstResponder()
            return true
@@ -44,14 +43,14 @@ class TestViewController: UIViewController,UITableViewDataSource, UITableViewDel
     }
     
     
-    
+    //タイマーで呼び出す関数（objCじゃないと呼び出せないから無理やりswift関数 in obj関数）
     @objc func selector(){
         tapButtonAction((Any).self)
     }
     
     @IBOutlet weak var testTableView: UITableView!
     
-    var flag:Bool = false
+    var flag:Bool = false               //スイッチの記述
     @IBAction func switchToggleAction(_ sender: Any) {
         while true {
             
@@ -64,13 +63,12 @@ class TestViewController: UIViewController,UITableViewDataSource, UITableViewDel
     
     @IBAction func tapButtonAction(_ sender: Any) {
 
-        let aaaaa = catchingNumber()                        //catchingNumberを定数として宣言
+        let aaaaa = catchingNumber()                        //catchingNumberを定数aaaaaとして宣言
         
         textFieldString = messageTextField.text!            //textFieldStringに代入
         
-       // socket.emit("from_client", textFieldString)         //textFiledStringの中身をemit
-        socket.emit("from_client", aaaaa)                   //他クラスから実行した関数の戻り値をemit
-        
+        socket.emit("from_client", textFieldString)         //textFiledStringの中身をemit
+        socket.emit("from_client",aaaaa)                    //他クラスから実行した関数の戻り値をemit
         
         messageTextField.text = ""                          //送信後、textFieldの中身を初期化
         messageTextField.endEditing(true)                   //キーボードをしまう
@@ -88,7 +86,7 @@ class TestViewController: UIViewController,UITableViewDataSource, UITableViewDel
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(selector), userInfo: nil, repeats: true)
+        var timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(selector), userInfo: nil, repeats: true)
         
         //テキストフィールドの設定（追記項目）
         messageTextField.returnKeyType = UIReturnKeyType.done //リターンキーにDoneを充てる
@@ -129,3 +127,4 @@ class TestViewController: UIViewController,UITableViewDataSource, UITableViewDel
         
     
 }
+
